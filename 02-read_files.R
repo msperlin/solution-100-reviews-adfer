@@ -16,6 +16,6 @@ mean_total <- mean(total_amm$total_amount, na.rm = TRUE)
 
 sd_total <- sd(total_amm$total_amount, na.rm = TRUE)
 
-answer <- mean_total/sd_total
+answer <- mean_total + sd_total
 
 print(answer)
